@@ -74,6 +74,7 @@ namespace ApiGatewayService
             app.UseAuthentication();
             app.UseOcelot().Wait();
             //Add Configuration method
+            //Second Comment
             app.UseMvc();
         }
     }
